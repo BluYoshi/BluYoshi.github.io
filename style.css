@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;  
+    font-size: 4em;
+    background-image: linear-gradient(to right, rgba(190, 32, 190, 0.705), rgba(98, 0, 255, 0.705) , rgba(0, 110, 255, 0.705));
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    margin-top: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px rgba(234, 0, 255, 0.747);
+}
+
+p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url(nice.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    background-color: rgba(224, 48, 180, 0.349);
+    margin: 75px;
+    padding: 30px;
+}
+
+#space {
+    padding-top: 100px;
+}
+
+.button {
+    background-color: rgb(0, 132, 255);
+    padding: 15px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(248, 53, 199);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: rgb(4, 164, 228);
+}
